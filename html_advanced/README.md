@@ -2,7 +2,7 @@
 <P>This directory is to study the basic structure of HTML and CSS</P>
 <P>It is beginner friendly and would help you master the basics of HTML and CSS</P>
 
-<center> <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="300" height="300" alt="HTML 5"> </center>
+<center> <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="250" height="250" alt="HTML 5"> </center>
 
 <h1> Objectives of the directory </h1>
 <p>At the end of this study, you are expected to have learnt the following: </p>
