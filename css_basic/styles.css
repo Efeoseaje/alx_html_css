@@ -1,0 +1,21 @@
+body {
+	display: flex;
+	flex-direction: column;
+	background-image: url("https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074131_1280.jpg");
+}
+
+main {
+	display: flex;
+	flex-direction: row;
+	flex: auto;
+}
+
+article {
+	flex: 2;
+	overflow-y: auto
+}
+
+aside{
+	flex: 1;
+	overflow-y: auto
+}
