@@ -345,3 +345,28 @@ a:active {
 	padding: auto;
 	margin-bottom: 4rem;
 }
+
+/* FAQ Section
+========================== */
+
+.section-faq {
+	color: black;
+}
+
+.section-faq h1 {
+	text-align: center;
+	font-weight: 400;
+	margin-top: 5rem;
+	margin-bottom: 3rem;
+}
+
+.section-faq .row_block {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	gap: 5rem;
+	width: 55%;
+	margin: auto;
+	padding: auto;
+}
+
