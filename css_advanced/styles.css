@@ -370,3 +370,31 @@ a:active {
 	padding: auto;
 }
 
+/* Footer
+====================== */
+
+.footer-container {
+	background-color: #071629;
+}
+
+.footer-container p{
+	text-align: center;
+	font-size: 12px;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin: 3rem auto;
+	padding-top: 5rem;
+	overflow: hidden;
+}
+
+.icons {
+	display: inline;
+}
+
+.icons img {
+	margin-right: 1.5rem;
+}
