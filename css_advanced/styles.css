@@ -48,6 +48,20 @@ a:active {
 	background-color: lightgray;
 }
 
+.btn {
+	display: inline-block;
+	justify-content: center;
+	margin-top: 50px;
+	margin-left: 30px;
+	font-size: small;
+	padding-top: 3px;
+	padding-bottom: 2px;
+	background-color:#C271FF;
+	border-style: none;
+	border-radius: 1rem;
+	width: 150px;
+	text-decoration: none;
+}
 
 /* Layout
 ============================*/
@@ -137,21 +151,6 @@ a:active {
 	width: 50%;
 	margin: auto;
 	padding: auto;
-}
-
-.section-hero .btn {
-	display: inline-block;
-	justify-content: center;
-	margin-top: 50px;
-	margin-left: 30px;
-	font-size: small;
-	padding-top: 3px;
-	padding-bottom: 2px;
-	background-color:#C271FF;
-	border-style: none;
-	border-radius: 1rem;
-	width: 150px;
-	text-decoration: none;
 }
 
 .section-hero .section-learn {
@@ -300,4 +299,49 @@ a:active {
 	margin-top: 0;
 	margin-bottom: 1rem;
 	padding-bottom: 1.5rem;
+}
+
+/* Membership section
+============================== */
+
+.section-membership {
+	background-color: #071629;
+	color: white;
+	overflow: hidden;
+}
+
+.section-membership h1 {
+	font-weight: 400;
+	text-align: center;
+	margin-top: 7rem;
+	margin-bottom: 3rem;
+}
+
+.section-membership .membership {
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+	padding-bottom: 70px;
+	width: 80%;
+	margin: auto;
+	padding-top: 70px;
+	text-align: center
+}
+
+.section-membership .btn {
+	align-content: center;
+}
+.membership-img p {
+	justify-content: center;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+.section-membership .btn {
+	display: flex;
+	justify-content: center;
+	width: 11%;
+	margin: auto;
+	padding: auto;
+	margin-bottom: 4rem;
 }
